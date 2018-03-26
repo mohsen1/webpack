@@ -95,7 +95,7 @@
     "test:unit": "mocha test/*.unittest.js --max-old-space-size=4096 --harmony --trace-deprecation",
     "travis:integration": "npm run cover:init && npm run cover:integration && npm run cover:report-min",
     "travis:unit": "npm run cover:init && npm run cover:unit && npm run cover:report-min",
-    "travis:lint": "npm run lint-files && npm run tsc",
+    "travis:lint": "npm run lint-files",
     "travis:benchmark": "npm run benchmark",
     "appveyor:integration": "npm run cover:init && npm run cover:integration && npm run cover:report-min",
     "appveyor:unit": "npm run cover:init && npm run cover:unit && npm run cover:report-min",
